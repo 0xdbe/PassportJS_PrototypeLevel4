@@ -22,7 +22,7 @@ $ npm install
 * Run this prototype
 
 ```console
-$ NODE_ENV=production PORT=3000 HOST=127.0.0.1 CLIENT_ID=xxxxxxxxxxxxxxxx CLIENT_SECRET=yyyyyyyyyyyyyyyyyyyyy MONGOURI=mongodb://username:passowr@hostname:27017/MyApp JWT_SECRET=Secret npm start
+$ NODE_ENV=production PORT=3000 HOST=127.0.0.1 CLIENT_ID=xxxxxxxxxxxxxxxx CLIENT_SECRET=yyyyyyyyyyyyyyyyyyyyy MONGOURI=mongodb://username:password@hostname:27017/MyApp JWT_SECRET=Secret npm start
 ```
 
 * Test it by opening your browser on http://127.0.0.1:3000/signin/github and accept the authorization request on GitHub
